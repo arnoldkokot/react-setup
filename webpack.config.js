@@ -10,7 +10,7 @@ module.exports = {
   mode: "development",
   output: {
     path: path.resolve(__dirname, "build"),
-    filename: "index.bundle.js",
+    filename: "[name].[contenthash].js",
   },
   module: {
     rules: [
@@ -50,6 +50,7 @@ module.exports = {
     },
     open: true,
     port: PORT,
+    static: false,
     proxy: {
       "/api": `http://localhost:${API_PORT}`,
     },

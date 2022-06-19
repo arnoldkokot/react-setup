@@ -1,6 +1,6 @@
 <br />
-<h3 align="center">React-env</h3>
-<p align="center">Babel & Webpack & React enviroment setup</p>
+<h3 align="center">Babel & Webpack & React</h3>
+<p align="center">Developer enviroment setup</p>
 <br />
 
 ## Notes
