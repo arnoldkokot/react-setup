@@ -1,3 +1,7 @@
 import React from "react";
 
-export const App = () => <h1>Sample text</h1>;
+export const App = () => (
+  <>
+    <h1>Sample text</h1>
+  </>
+);
